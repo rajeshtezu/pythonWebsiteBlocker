@@ -1,9 +1,10 @@
-#! /usr/bin/python3
+#! python3
 
 import time
 from datetime import datetime as dt
 
 #hosts_temp = "hosts"
+# hosts_path = r"C:\Windows\System32\drivers\etc\hosts"     # Uncomment this line if using code on Windows OS
 hosts_path = "/etc/hosts"
 redirect = "127.0.0.1"
 website_list = ["www.facebook.com", "facebook.com", "www.linkedin.com", "linkedin.com"]
